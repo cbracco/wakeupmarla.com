@@ -1,8 +1,8 @@
-# jekyll-postcss-browserify
+# wakeupmarla.com
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) [![Build Status](https://travis-ci.org/cbracco/jekyll-postcss-browserify.svg)](https://travis-ci.org/cbracco/jekyll-postcss-browserify)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) [![Build Status](https://travis-ci.org/cbracco/wakeupmarla.com.svg)](https://travis-ci.org/cbracco/wakeupmarla.com)
 
-> A boilerplate for building static websites with [Gulp][gulp], [Jekyll][jekyll], [PostCSS][postcss], [Browserify][browserify], [imagemin][imagemin], [svg-sprite][svg-sprite], and more.
+> The source code for Marla Lacherza Bracco’s personal website. It uses [jekyll-postcss-browserify][jekyll-postcss-browserify] as a baseline.
 
 This project is an opinionated front-end boilerplate for developing and deploying static websites using [Jekyll][jekyll]. It includes several front-end tools that help facilitate the development process, and [Gulp][gulp] to automate common development tasks, compiling source code, watching files for changes, and deployment.
 
