@@ -1,0 +1,19 @@
+/* The Humans Responsible & Colophon */
+/* humanstxt.org */
+
+/* TEAM */
+
+Author(s): Marla Lacherza
+
+
+Site:      https://example.com
+
+
+
+/* SITE */
+Last update: 2017/09/09
+
+Language:    en-us
+
+Doctype:     HTML5
+Standards:   HTML5, CSS3
