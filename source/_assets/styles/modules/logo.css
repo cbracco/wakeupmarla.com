@@ -1,0 +1,32 @@
+/**
+ * LOGO
+ */
+
+.logo {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.logo__image {
+  display: inline-block;
+  margin-bottom: var(--spacing-2);
+  max-width: var(--spacing-10);
+}
+
+@media (min-width: 600px) {
+  .logo__image {
+    max-width: 100%;
+  }
+}
+
+.logo__text {
+  font-size: var(--font-size-2);
+  color: var(--color-black);
+  margin-bottom: 0;
+}
+
+@media (min-width: 600px) {
+  .logo__text {
+    font-size: var(--font-size-3);
+  }
+}

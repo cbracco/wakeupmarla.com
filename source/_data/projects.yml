@@ -1,0 +1,13 @@
+#
+# Projects
+#
+
+- title: "Bed Bath & Beyond"
+  url: "http://bedbathbeyond.com"
+  image: "/assets/images/projects/bed-bath-beyond.png"
+- title: "Jersey Ink"
+  url: "http://jerseyink.net"
+  image: "/assets/images/projects/jersey-ink.png"
+- title: "Lamplighter Magazine"
+  url: "http://lamplighternj.com/"
+  image: "/assets/images/projects/lamplighter.jpg"

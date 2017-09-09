@@ -1,0 +1,50 @@
+#
+# Configuration
+#
+
+# Site
+title: "Wake Up, Marla."
+# title_after: > # ignore newlines in this value
+#   This appears after the site title for the homepage and any other pages
+#   that do not have an excerpt specified.
+# description: > # ignore newlines in this value
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+author: "Marla Lacherza"
+email: "mlacherza@gmail.com"
+encoding: "utf-8"
+language: "en-us"
+
+# Routes
+source: ./source
+destination: ./build
+baseurl: ""
+url: "http://127.0.0.1.xip.io:9999"
+root: /
+permalink: /journal/:categories/:title/
+
+# Writing
+markdown: kramdown
+
+# Publishing
+future: true
+show_drafts: true
+limit_posts: 5
+
+# <head>
+favicons: true
+openGraph: true
+twitterCards:
+  username: jekyllrb
+
+# Analytics
+analytics:
+  id: UA-41760082-1
+  domain: wakeupmarla.com
+
+# Excludes
+#
+# Travis-CI bundles all gems in the vendor directory on its build
+# servers, which Jekyll will mistakenly read and explode on.
+exclude: [vendor]

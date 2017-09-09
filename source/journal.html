@@ -1,0 +1,19 @@
+---
+title: "Journal"
+description: |
+    <p>Entries coming soon!</p>
+layout: page
+---
+
+<ul class="postlist">
+  {% for item in site.posts %}
+  <li class="post post--excerpt">
+    <h1 class="post__heading">
+      <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+    </h1>
+    <div class="post__meta">
+      <span class="post__date">{{ item.date | date: "%B %-d, %Y" }}</span>
+    </div>
+  </li>
+  {% endfor %}
+</ul>

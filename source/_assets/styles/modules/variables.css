@@ -1,0 +1,73 @@
+/**
+ * VARIABLES
+ */
+
+:root {
+  /* Grayscale */
+  --color-white: #ffffff;
+  --color-gray-lightest: #f2efef;
+  --color-gray-lighter: #e0dddd;
+  --color-gray-light: #c1bcbc;
+  --color-gray: #9d9797;
+  --color-gray-dark: #7f7979;
+  --color-gray-darker: #5f5959;
+  --color-gray-darkest: #423c3c;
+  --color-black: #271f1f;
+  /* Colors */
+  --color-salmon-lightest: #fce9e4;
+  --color-salmon: #f7af9d;
+  --color-salmon-dark: #e1a08f;
+  --color-lavender: #c08497;
+  --color-mint: #a0eade;
+  --color-mint-dark: #92d5ca;
+  --color-mint-darker: #71afa5;
+  --color-mint-darkest: #5f9289;
+  --color-bubblegum-lightest: #f7e7ea;
+  --color-bubblegum-lighter: #f9d2d9;
+  --color-bubblegum-light: #ffd3db;
+  --color-bubblegum: #ffcad4;
+  --color-bubblegum-dark: #e8b8c1;
+  /* Modular Scale */
+  --scale-ratio: 1.333;
+  /* Text */
+  --font-size-1: 18px;
+  --font-size-2: calc(var(--font-size-1) * var(--scale-ratio));
+  --font-size-3: calc(var(--font-size-2) * var(--scale-ratio));
+  --font-size-4: calc(var(--font-size-3) * var(--scale-ratio));
+  --font-size-5: calc(var(--font-size-4) * var(--scale-ratio));
+  --font-size-6: calc(var(--font-size-5) * var(--scale-ratio));
+  --font-size-7: calc(var(--font-size-6) * var(--scale-ratio));
+  --font-size-8: calc(var(--font-size-7) * var(--scale-ratio));
+  --font-size-9: calc(var(--font-size-8) * var(--scale-ratio));
+  --font-size-10: calc(var(--font-size-9) * var(--scale-ratio));
+  --font-size-default: var(--font-size-1);
+  --font-size-small: calc(var(--font-size-default) * 0.722);
+  --line-height-1: 1.5;
+  --line-height-2: 1.333;
+  --text-uppercase: {
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+  };
+  /* Spacing */
+  --spacing-1: 0.25rem;
+  --spacing-2: calc(var(--spacing-1) * var(--scale-ratio));
+  --spacing-3: calc(var(--spacing-2) * var(--scale-ratio));
+  --spacing-4: calc(var(--spacing-3) * var(--scale-ratio));
+  --spacing-5: calc(var(--spacing-4) * var(--scale-ratio));
+  --spacing-6: calc(var(--spacing-5) * var(--scale-ratio));
+  --spacing-7: calc(var(--spacing-6) * var(--scale-ratio));
+  --spacing-8: calc(var(--spacing-7) * var(--scale-ratio));
+  --spacing-9: calc(var(--spacing-8) * var(--scale-ratio));
+  --spacing-10: calc(var(--spacing-9) * var(--scale-ratio));
+  --spacing-11: calc(var(--spacing-10) * var(--scale-ratio));
+  --spacing-12: calc(var(--spacing-11) * var(--scale-ratio));
+  --spacing-13: calc(var(--spacing-12) * var(--scale-ratio));
+  --spacing-14: calc(var(--spacing-13) * var(--scale-ratio));
+  --spacing-15: calc(var(--spacing-14) * var(--scale-ratio));
+  --spacing-16: calc(var(--spacing-15) * var(--scale-ratio));
+  --spacing-17: calc(var(--spacing-16) * var(--scale-ratio));
+  --spacing-18: calc(var(--spacing-17) * var(--scale-ratio));
+  --spacing-19: calc(var(--spacing-18) * var(--scale-ratio));
+  --spacing-20: calc(var(--spacing-19) * var(--scale-ratio));
+  --spacing-default: var(--spacing-7);
+}

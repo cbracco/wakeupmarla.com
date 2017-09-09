@@ -1,0 +1,44 @@
+---
+title: "Briefcase"
+description: |
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae molestiae nobis et voluptatibus obcaecati laudantium perferendis ipsum! Maxime quibusdam exercitationem, officiis quos a amet sint, quaerat consequatur accusamus, nulla quis?</p>
+layout: page
+---
+
+{% if site.data.projects %}
+  <h2>Featured Projects</h2>
+  <ul class="grid">
+    {% for project in site.data.projects %}
+      <li class="grid__item">
+        <a class="grid__image" href="{{ project.url }}" title="{{ project.title }}" target="_blank">
+          <img src="{{ project.image }}" alt="{{ project.title }}">
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+<br>
+{% if site.data.clients and site.data.outreach %}
+  <div class="grid">
+    <div class="grid__item">
+      {% if site.data.clients %}
+        <h3>Clients</h3>
+        <ul class="u-list-reset">
+          {% for client in site.data.clients %}
+            <li><a href="{{ client.url }}" title="{{ client.title }}" target="_blank">{{ client.title }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+    <div class="grid__item">
+      {% if site.data.outreach %}
+        <h3>Community Outreach</h3>
+        <ul class="u-list-reset">
+          {% for outreach in site.data.outreach %}
+            <li><a href="{{ outreach.url }}" title="{{ outreach.title }}" target="_blank">{{ outreach.title }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}

@@ -1,0 +1,66 @@
+/**
+ * BASE
+ */
+
+body {
+  border: var(--spacing-5) solid var(--color-white);
+  background-color: var(--color-bubblegum-lightest);
+  color: var(--color-black);
+  font-family: 'Lora', Georgia, Times, serif;
+  font-size: var(--font-size-default);
+  line-height: var(--line-height-1);
+}
+
+a {
+  color: var(--color-mint-darker);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--color-mint-darkest);
+}
+
+blockquote,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+menu,
+ol,
+p,
+pre,
+summary,
+table,
+ul {
+  margin-bottom: var(--spacing-default);
+}
+
+h1,
+h2,
+h3 {
+  line-height: var(--line-height-2);
+}
+
+h1 {
+  font-size: var(--font-size-4);
+}
+
+h2 {
+  font-size: var(--font-size-3);
+}
+
+h3 {
+  font-size: var(--font-size-2);
+  margin-bottom: calc(var(--spacing-default) / 4);
+}
+
+h4,
+h5,
+h6 {
+  font-size: var(--font-size-default);
+}

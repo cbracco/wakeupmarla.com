@@ -1,0 +1,12 @@
+#
+# Site Navigation
+#
+
+- title: "Home"
+  url: "/"
+- title: "Briefcase"
+  url: "/briefcase/"
+- title: "Journal"
+  url: "/journal/"
+- title: "Contact"
+  url: "/contact/"

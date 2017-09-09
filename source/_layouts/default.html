@@ -1,0 +1,30 @@
+{% include head/base.html %}
+  <div class="site" role="document">
+    <div class="site__header">
+      <div class="container">
+        <a class="logo" href="/" role="banner">
+          <img class="logo__image" src="/assets/images/logo.svg" width="96" alt="{{ site.author }}">
+          <h1 class="logo__text">{{ site.author }}</h1>
+        </a>
+        {% include site/navigation.html nav=site.data.navigation %}
+      </div>
+    </div>
+    <div class="site__main" role="main">
+      <div class="container">
+        <div class="site__content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    <div class="site__footer" role="contentinfo">
+      <div class="container u-text-center">
+        <p class="site__footer__credits">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.author }}. All Rights Reserved.</p>
+        <ul class="site__footer__nav">
+          <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS Feed</a></li>
+          <li class="site__footer__nav__divider">✌</li>
+          <li><a href="{{ "/sitemap.xml" | prepend: site.baseurl }}">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+{% include foot/base.html %}
