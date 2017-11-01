@@ -11,7 +11,7 @@ Site:      https://example.com
 
 
 /* SITE */
-Last update: 2017/09/09
+Last update: 2017/11/01
 
 Language:    en-us
 
