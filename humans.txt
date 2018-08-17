@@ -3,7 +3,7 @@
 
 /* TEAM */
 
-Author(s): Marla Lacherza
+Author(s): Marla Bracco
 
 
 Site:      https://example.com
@@ -11,7 +11,7 @@ Site:      https://example.com
 
 
 /* SITE */
-Last update: 2017/11/01
+Last update: 2018/08/17
 
 Language:    en-us
 
